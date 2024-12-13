@@ -13,7 +13,7 @@
 		"issues": "https://github.com/user93390/No-Potion-Icons-1.21/issues"
 	},
 	"license": "None",
-	"icon": "assets/nopotionicons/icon.png",
+	"icon": "assets/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"main": [
