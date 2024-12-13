@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "nopotionicons",
+	"version": "${version}",
+	"name": "No Potion Icons",
+	"description": "Removes potion effect icons from the HUD",
+	"authors": [
+		"aaronhowser1"
+	],
+	"contact": {
+		"homepage": "http://aaronhowser.dev/",
+		"sources": "https://github.com/aaronhowser1/No-Potion-Icons",
+		"issues": "https://github.com/aaronhowser1/No-Potion-Icons/issues"
+	},
+	"license": "Public Domain",
+	"icon": "assets/nopotionicons/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"dev.aaronhowser.mods.nopotionicons.NoPotionIcons"
+		]
+	},
+	"mixins": [
+		"nopotionicons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
