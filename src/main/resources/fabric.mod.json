@@ -3,7 +3,7 @@
 	"id": "nopotionicons",
 	"version": "${version}",
 	"name": "No Potion Icons",
-	"description": "Removes potion effect icons from the HUD",
+	"description": "An updated version of No-potion-icons ",
 	"authors": [
 		"seasnail1"
 	],
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/user93390/No-Potion-Icons-1.21",
 		"issues": "https://github.com/user93390/No-Potion-Icons-1.21/issues"
 	},
-	"license": "Public Domain",
+	"license": "None",
 	"icon": "assets/nopotionicons/icon.png",
 	"environment": "client",
 	"entrypoints": {
